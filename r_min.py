@@ -7,14 +7,14 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 settings.configure(
     DEBUG=True,
-    SECRET_KEY='thisisthesecretkey',
+    SECRET_KEY = 'ac!5bu68^vf3_12)m1e&2ls#1uidd_33f)c!j=&&^b_91m7g#+',
     ROOT_URLCONF=__name__,
     MIDDLEWARE_CLASSES=(
         'django.middleware.common.CommonMiddleware',
         'django.middleware.csrf.CsrfViewMiddleware',
         'django.middleware.clickjacking.XFrameOptionsMiddleware',
     ),
-    ALLOWED_HOSTS = [ 'r-on-heroku.herokuapp.com',
+    ALLOWED_HOSTS = [ 'r-in-heroku.herokuapp.com',
                       'localhost'],
     BASE_DIR = BASE_DIR,
     STATIC_URL = '/static/',
